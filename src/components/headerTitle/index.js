@@ -4,7 +4,10 @@ console.log(styles);
 class HeaderTitle extends Component {
     render() {
         return (
-            <h1 className={styles.header}>C.O.G.</h1>
+            <div>
+                <h1 className={styles.header}>C.M.T.G.</h1>
+                <h1 className={styles.header}>(Choose Me The Game!)</h1>
+            </div>
         );
     }
 }

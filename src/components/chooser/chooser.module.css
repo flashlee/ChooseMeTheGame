@@ -1,3 +1,21 @@
 .container {
     display: block;
 }
+
+.baton {
+    height: 5vmin;
+    width: 10vmin;
+    font-size: calc(7px + 1vmin);
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 40px;
+}
+
+.baton:focus {
+    outline: none;
+}
+
+.baton:hover {
+    background-color: #6f7a90;
+}

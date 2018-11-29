@@ -7,7 +7,7 @@ class Chooser extends Component {
         return (
             <div className={styles.container}>
                 <GamesToChoose />
-                <button>Choose A Game!</button>
+                <button className={styles.baton}>Choose!</button>
             </div>
         );
     }

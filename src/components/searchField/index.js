@@ -5,7 +5,11 @@ class searchField extends Component {
     render() {
         return (
             <div>
-                <input className={styles.input} type="text" placeholder="Type here name of the game" />
+                <input 
+                    className={styles.input}
+                    type="text"
+                    placeholder="Type here name of the game" 
+                />
             </div>
         );
     }
