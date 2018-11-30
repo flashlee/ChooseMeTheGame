@@ -1,3 +1,5 @@
 .container {
+    height: 10vmin;
+    vertical-align: middle;
     color: white;
 }

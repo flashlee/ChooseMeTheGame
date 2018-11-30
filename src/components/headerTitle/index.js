@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './headerTitle.module.css';
-console.log(styles);
+
 class HeaderTitle extends Component {
     render() {
         return (

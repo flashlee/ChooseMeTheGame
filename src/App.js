@@ -3,6 +3,7 @@ import HeaderTitle from './components/headerTitle';
 import SearchField from './components/searchField';
 import Chooser from './components/chooser';
 import './App.css';
+const cert = require('./cfg/giantbomb_cert.json');
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
         <header>
           <HeaderTitle />
         </header>
-        <SearchField />
+        <SearchField apiKey={cert.api_key}/>
         <Chooser />
       </div>
     );
